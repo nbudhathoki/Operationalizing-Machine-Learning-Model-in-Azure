@@ -9,13 +9,13 @@ The goal of this project is to use the Azure ML tools to configure a cloud-based
 
 Below is the architectural diagram followed for this project, starting from setting up proper authentication, training model by automl, deploying the best model, creating pipeline, consuming the model, enable logging in app insights, and swagger documentation. <br/>
 
-<img src= "./images/architecture.png">
+<kbd><img src= "./images/architecture.png"> </kbd>
 
 ## Key Steps
 ### Step 1: Authentication:
 I am using my Azure account for this project. The azureML workspace is created, and I am the owner of it with all the required access verified by Identity and Access Management (IAM) through AAD (Azure Active Directory). For security reason, my account id is greyed out. However, authentication is set up properly as the first key step: <br/>
 
-<img src= "./images/access.png"> <br/>
+<kbd><img src= "./images/access.png"> </kbd> <br/>
 
 ### Step 2: AutoML Experiment:
 Before we set up autoML experiment, we need to make sure we have uploaded the dataset. The data set is uploaded from [this URL](https://automlsamplenotebookdata.blob.core.windows.net/automl-sample-notebook-data/bankmarketing_train.csv). We can preview the uploaded dataset: <br/>
