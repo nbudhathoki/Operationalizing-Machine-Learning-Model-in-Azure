@@ -22,6 +22,20 @@ Before we set up autoML experiment, we need to make sure we have uploaded the da
 
 <img src= "./images/dataset_uploaded.png"> <br/>
 
+After the dataset is uploaded, autoML experiment is set up. The completed experiment can be verified as: <br/>
+
+<img src= "./images/exp_complete.png"> <br/>
+
+Best Model: VotingEnsemble is the best model with accuracy **0.92049** <br/>
+
+<img src= "./images/votingEnsemble.png"> <br/>
+
+### Step 3: Deploy the Best Model:
+
+
+
+
+
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
 
