@@ -31,7 +31,22 @@ Best Model: VotingEnsemble is the best model with accuracy **0.92049** <br/>
 <kbd><img src= "./images/votingEnsemble.png"> </kbd> <br/>
 
 ### Step 3: Deploy the Best Model:
+If we look at the list of models from different runs in the experiment, it is sorted by Accuracy. We selected the first one with highest accuracy (0.92). deploy the model using Azure Container Instance (ACI). By default for ACI, key based authentication is disabled. We enable the authentication and deploy the model to create endpoints that can be consumed via API. <br/>
+| **Authentication enabled**| **Deployment completed** |
+| ------- | ------ | 
+| <kbd><img src= "./images/enable_auth_deploy.png"> </kbd> <br/> | <kbd><img src= "./images/endpoint_ready.png"> </kbd> <br/> | 
 
+### Step 4: Enable Application Insights:
+By default, the application insights is disabled. Logs of real-time endpoints are valuable data to troubleshoot issues or just to track and optimize the performance of the model deployed as web service. We can use the get_logs() function to retrieve logs from a deployed web service. The logs may contain detailed information about any errors that occurred during deployment. 
+In order to enable application insights , we can use: service.update(enable_app_insights=True). Here *service* is the variable holding webservice name and workspace information.
+
+| **AppInsights Disabled**| **AppInsights Enabled** |
+| ------- | ------ | 
+| <kbd><img src= "./images/enable_false.png"> </kbd> <br/> | <kbd><img src= "./images/enable_true.png"> </kbd> <br/> | 
+
+Following screenshot shows the visuals for logs if we go to the app insights url generated after enabling application insights to true: <br/>
+
+<kbd><img src= "./images/log_visuals.png"> </kbd> <br/>
 
 
 
