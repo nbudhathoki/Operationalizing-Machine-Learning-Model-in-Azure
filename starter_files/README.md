@@ -51,9 +51,9 @@ Following screenshot shows the visuals for logs if we go to the app insights url
 ### Step 5: Swagger Documentation
 Swagger UI allows us to visualize and interact with our model via REST API. It’s automatically generated after model deployment is completed and we have a webservice endpoint. The visual documentation makes it easy for back end implementation and client side consumption.
 
-| **Directory Listing**| **Swagger UI** |
+| **Swagger UI**| **How input payload looks** |
 | ------- | ------ | 
-| <kbd><img src= "./images/directory_listing.png"> </kbd> <br/> | <kbd><img src= "./images/swagger.png"> </kbd> <br/> | 
+| <kbd><img src= "./images/swagger.png"> </kbd> <br/> |  <kbd><img src= "./images/input_payload.png"> </kbd> <br/>| 
 
 ### Step 6: Consume Model Endpoints:
 Next step is to consume our model endpoint. The script *endpoint.py* uses RESTful API (url), and private key to run the model, and get the output in json format. <br/>
