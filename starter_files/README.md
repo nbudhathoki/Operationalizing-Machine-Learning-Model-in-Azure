@@ -63,23 +63,25 @@ Next step is to consume our model endpoint. The script *endpoint.py* uses RESTfu
 Pipeline is an independently executable workflow of a complete machine learning task. Subtasks are encapsulated as a series of steps within the pipeline. Some of the subtasks we performed are making dataset ready (first check if dataset exists, upload if not exists), then setting up autoML config, and running the autoML experiment. Pipeline, as the name suggests is sequential steps of independent tasks, when combined together automates the complete model building process. Below are captured screenshots:
 
 *Run widget showing pipeline is submitted:*
-<br/><kbd><img src= "./images/run_widget.png"> </kbd> <br/>
+<br/>
+<kbd><img src= "./images/run_widget.png"> </kbd> <br/>
 
 *Pipeline execution completed:*
-<br/><kbd><img src= "./images/pipeline_execution.png"> </kbd> <br/>
+<br/> 
+<kbd><img src= "./images/pipeline_execution.png"> </kbd> <br/>
 
 *ML Studio showing completed pipeline in the list:*
-<br/><kbd><img src= "./images/pipeline_list.png"> </kbd> <br/>
+<br/> 
+<kbd><img src= "./images/pipeline_list.png"> </kbd> <br/>
 
 *Details of completed pipeline:*
-<br/><kbd><img src= "./images/pipeline_run_complete.png"> </kbd> <br/>
+<br/> 
+<kbd><img src= "./images/pipeline_run_complete.png"> </kbd> <br/>
 
 *Pipeline Published and is Active:*
-<br/><kbd><img src= "./images/pipeline_active.png"> </kbd> <br/>
+<br/> 
+<kbd><img src= "./images/pipeline_active.png"> </kbd> <br/>
 
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
-
-## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
