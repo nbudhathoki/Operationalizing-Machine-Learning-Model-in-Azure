@@ -84,7 +84,7 @@ Pipeline is an independently executable workflow of a complete machine learning 
 
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+[Link to the Screen Recording](https://www.youtube.com/watch?v=ul0ZSpS8bPo)
 
 ## Future Improvements:
 1. If I had more time to commit, I would have completed more scheduled runs, and try out different models. Sometimes the autoML gives us less controls.
