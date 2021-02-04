@@ -85,3 +85,6 @@ Pipeline is an independently executable workflow of a complete machine learning 
 
 ## Screen Recording
 *TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+## Future Improvements:
+
