@@ -48,7 +48,34 @@ Following screenshot shows the visuals for logs if we go to the app insights url
 
 <kbd><img src= "./images/log_visuals.png"> </kbd> <br/>
 
+### Step 5: Swagger Documentation
+Swagger UI allows us to visualize and interact with our model via REST API. It’s automatically generated after model deployment is completed and we have a webservice endpoint. The visual documentation makes it easy for back end implementation and client side consumption.
 
+| **Directory Listing**| **Swagger UI** |
+| ------- | ------ | 
+| <kbd><img src= "./images/directory_listing.png"> </kbd> <br/> | <kbd><img src= "./images/swagger.png"> </kbd> <br/> | 
+
+### Step 6: Consume Model Endpoints:
+Next step is to consume our model endpoint. The script *endpoint.py* uses RESTful API (url), and private key to run the model, and get the output in json format. <br/>
+<kbd><img src= "./images/endpoint_results.png"> </kbd> <br/>
+ 
+ ### Step 7: Create and Publish a Pipeline:
+Pipeline is an independently executable workflow of a complete machine learning task. Subtasks are encapsulated as a series of steps within the pipeline. Some of the subtasks we performed are making dataset ready (first check if dataset exists, upload if not exists), then setting up autoML config, and running the autoML experiment. Pipeline, as the name suggests is sequential steps of independent tasks, when combined together automates the complete model building process. Below are captured screenshots:
+
+*Run widget showing pipeline is submitted:*
+<br/><kbd><img src= "./images/run_widget.png"> </kbd> <br/>
+
+*Pipeline execution completed:*
+<br/><kbd><img src= "./images/pipeline_execution.png"> </kbd> <br/>
+
+*ML Studio showing completed pipeline in the list:*
+<br/><kbd><img src= "./images/pipeline_list.png"> </kbd> <br/>
+
+*Details of completed pipeline:*
+<br/><kbd><img src= "./images/pipeline_run_complete.png"> </kbd> <br/>
+
+*Pipeline Published and is Active:*
+<br/><kbd><img src= "./images/pipeline_active.png"> </kbd> <br/>
 
 
 ## Screen Recording
