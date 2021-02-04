@@ -53,7 +53,7 @@ Swagger UI allows us to visualize and interact with our model via REST API. Itâ€
 
 | **Swagger UI**| **How input payload looks** |
 | ------- | ------ | 
-| <kbd><img src= "./images/swagger.png"> </kbd> <br/> |  <kbd><img src= "./images/input_payload.png"> </kbd> <br/>| 
+| <kbd><img src= "./images/swagger.png"> </kbd> <br/> |  <kbd><img src= "./images/inputpayload.png"> </kbd> <br/>| 
 
 ### Step 6: Consume Model Endpoints:
 Next step is to consume our model endpoint. The script *endpoint.py* uses RESTful API (url), and private key to run the model, and get the output in json format. <br/>
